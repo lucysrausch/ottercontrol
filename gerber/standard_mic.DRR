@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: standard_mic.PcbDoc   8/14/2017  4:46:42 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Component Side to Solder Side
+ASCII RoundHoles File : standard_mic.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             177       PTH        18.84inch (478.41mm)
+T2      24mil (0.6mm)                                             Round             256       PTH        16.16inch (410.39mm)
+T3      35mil (0.9mm)                                             Round             2         PTH        0.10inch (2.54mm)
+T4      39mil (1mm)                                               Round             14        PTH        9.04inch (229.72mm)
+T5      61mil (1.55mm)                                            Round             2         PTH        0.28inch (7.20mm)
+T6      118mil (3mm)                                              Round             6         PTH        6.78inch (172.30mm)
+T7      138mil (3.5mm)                                            Round             2         PTH        3.11inch (79.00mm)
+T8      35mil (0.889mm)                                           Round             3         NPTH       0.28inch (7.21mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              462
+
+Total Processing Time (hh:mm:ss) : 00:00:01
