@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -421,4 +421,8 @@ ISENS
 Wire Wire Line
 	4600 4550 4550 4550
 Connection ~ 4550 4550
+Text Label 3200 2650 2    50   ~ 0
+HO
+Text Label 3200 3150 2    50   ~ 0
+LO
 $EndSCHEMATC
