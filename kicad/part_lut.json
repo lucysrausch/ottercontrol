@@ -23,6 +23,12 @@
             "Footprint"         : "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
             "MPN"               : "MAX3051ESA+",
             "Datasheet"         : "https://www.mouser.de/datasheet/2/256/MAX3051-1280983.pdf"
+        },
+        {
+            "Value"             : "MIC4605",
+            "Footprint"         : "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+            "MPN"               : "MIC4605-1YM-TR",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/268/MIC4605-778913.pdf"
         }
     ],
     "IC": [
@@ -51,6 +57,26 @@
             "Datasheet"         : "https://www.mouser.de/datasheet/2/389/usblc6-4-957459.pdf"
         }
     ],
+    "Q" :[
+        {
+            "Value"             : "TK160F10N1L",
+            "Footprint"         : "Package_TO_SOT_SMD:TO-263-2",
+            "MPN"               : "TK160F10N1L,LQ",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/408/TK160F10N1L_datasheet_en_20180601-1114616.pdf"
+        },
+        {
+            "Value"             : "IRF100B201",
+            "Footprint"         : "Package_TO_SOT_THT:TO-220-3_Vertical",
+            "MPN"               : "IRF100B201",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/196/irf100s201-1226810.pdf"
+        },
+        {
+            "Value"             : "Si2367DS",
+            "Footprint"         : "Package_TO_SOT_SMD:SOT-23",
+            "MPN"               : "SI2367DS-T1-GE3",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/427/si2367ds-278436.pdf"
+        }
+    ],
     "C": [
         {
             "Value"             : "18p",
@@ -59,6 +85,13 @@
             "Dielectric"        : "C0G (NP0)",
             "MPN"               : "GRM0335C1E180FA01D",
             "Datasheet"         : "https://www.mouser.de/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf"
+        },
+        {
+            "Value"             : "1n",
+            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
+            "Voltage Rating DC" : "50",
+            "MPN"               : "885012206083",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/445/885012206083-554593.pdf"
         },
         {
             "Value"             : "100n",
@@ -75,11 +108,18 @@
             "Datasheet"         : "https://www.mouser.de/datasheet/2/447/UPY-GPHC_Y5V_6.3V-to-50V_8-1280790.pdf"
         },
         {
-            "Value"             : "10u",
-            "Footprint"         : "Capacitor_SMD:C_1206_3216Metric",
+            "Value"             : "1u",
+            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
             "Voltage Rating DC" : "25",
-            "MPN"               : "TMK316BJ106KL-T",
-            "Datasheet"         : "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf"
+            "MPN"               : "885012106022",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/445/885012106022-553988.pdf"
+        },
+        {
+            "Value"             : "2.2u",
+            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
+            "Voltage Rating DC" : "25",
+            "MPN"               : "GRM188R61E225MA12D",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf"
         },
         {
             "Value"             : "10u",
@@ -89,11 +129,11 @@
             "Datasheet"         : "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf"
         },
         {
-            "Value"             : "47u",
-            "Footprint"         : "Capacitor_SMD:C_2220_5650Metric",
-            "Voltage Rating DC" : "100",
-            "MPN"               : "CGA9N3X7R1E476M230KB",
-            "Datasheet"         : "https://www.mouser.de/datasheet/2/400/lcc_automotive_general_en-843974.pdf"
+            "Value"             : "10u",
+            "Footprint"         : "Capacitor_SMD:C_1206_3216Metric",
+            "Voltage Rating DC" : "25",
+            "MPN"               : "TMK316BJ106KL-T",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf"
         },
         {
             "Value"             : "22u",
@@ -103,51 +143,38 @@
             "Datasheet"         : "https://www.mouser.de/datasheet/2/400/lcc_commercial_general_en-560200.pdf"
         },
         {
+            "Value"             : "47u",
+            "Footprint"         : "Capacitor_SMD:C_2220_5650Metric",
+            "Voltage Rating DC" : "100",
+            "MPN"               : "CGA9N3X7R1E476M230KB",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/400/lcc_automotive_general_en-843974.pdf"
+        },
+        {
             "Value"             : "100u",
             "Footprint"         : "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm",
             "Voltage Rating DC" : "100",
             "MPN"               : "107CKS100MLQ",
             "Datasheet"         : "https://www.mouser.de/datasheet/2/88/CKR_CKS_series-553026.pdf"
-        },
-        {
-            "Value"             : "1u",
-            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
-            "Voltage Rating DC" : "10",
-            "MPN"               : "885012106022",
-            "Datasheet"         : "https://www.mouser.de/datasheet/2/445/885012106022-553988.pdf"
-        },
-        {
-            "Value"             : "1n",
-            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
-            "Voltage Rating DC" : "50",
-            "MPN"               : "885012206083",
-            "Datasheet"         : "https://www.mouser.de/datasheet/2/445/885012206083-554593.pdf"
         }
     ],
     "R": [
         {
-            "Value"             : "10k",
+            "Value"             : "0",
             "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
-            "MPN"               : "RC0603FR-0710KL",
+            "MPN"               : "RC0603JR-070RL",
             "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
         },
         {
-            "Value"             : "470",
-            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
-            "MPN"               : "RC0603FR-07470RL",
-            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+            "Value"             : "3m",
+            "Footprint"         : "Resistor_SMD:R_2512_6332Metric",
+            "MPN"               : "WSLF25123L000FEA",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/427/wslf-974898.pdf"
         },
         {
-            "Value"             : "5.1k",
+            "Value"             : "10",
             "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
-            "MPN"               : "RC0603FR-075K1L",
-            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
-        },
-        {
-            "Value"             : "56k",
-            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
-            "MPN"               : "RC0603FR-0756KL",
-            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+            "MPN"               : "RC0603FR-0710RP",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_51_RoHS_P_0-1315044.pdf"
         },
         {
             "Value"             : "22",
@@ -156,15 +183,15 @@
             "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
         },
         {
-            "Value"             : "2k",
+            "Value"             : "100",
             "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
-            "MPN"               : "RC0603FR-072KL",
+            "MPN"               : "RC0603FR-07100RL",
             "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
         },
         {
-            "Value"             : "20k",
+            "Value"             : "470",
             "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
-            "MPN"               : "RC0603FR-0720KL",
+            "MPN"               : "RC0603FR-07100RL",
             "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
         },
         {
@@ -174,9 +201,33 @@
             "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
         },
         {
-            "Value"             : "0",
+            "Value"             : "2k",
             "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
-            "MPN"               : "RC0603JR-070RL",
+            "MPN"               : "RC0603FR-072KL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "5.1k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-075K1L",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "10k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-0710KL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "20k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-0720KL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "56k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-0756KL",
             "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
         }
     ],
@@ -216,12 +267,70 @@
             "Datasheet"         : "https://www.mouser.de/datasheet/2/678/V02-4186EN_DS_ASMB-MTB0_2014-09-10-909697.pdf"
         }
     ],
-    "X": [
+    "P": [
         {
             "Value"             : "Conn_01x08",
             "Footprint"         : "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal",
             "MPN"               : "53261-0871",
             "Datasheet"         : "https://www.mouser.de/datasheet/2/276/0532610871_PCB_HEADERS-171054.pdf"
+        },
+        {
+            "Value"             : "Conn_01x05",
+            "Footprint"         : "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal",
+            "MPN"               : "53261-0571",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/276/0532610571_PCB_HEADERS-170968.pdf"
+        },
+        {
+            "Value"             : "programmer",
+            "Footprint"         : "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical",
+            "MPN"               : "TC2030-MCP-NL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/268/TC2030-MCP-NL_PCB_Footprint_RevD-70136.pdf"
+        },
+        {
+            "Value"             : "Conn_01x02",
+            "Footprint"         : "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+            "MPN"               : "n/a",
+            "Datasheet"         : "n/a"
+        }
+    ],
+    "Y": [
+        {
+            "Value"             : "16MHz",
+            "Footprint"         : "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm",
+            "MPN"               : "FA-238 16.0000MB-K3",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/137/A-238_en-932914.pdf"
+        }
+    ],
+    "TP": [
+        {
+            "Value"             : "TestPoint",
+            "Footprint"         : "TestPoint:TestPoint_Pad_D1.0mm",
+            "MPN"               : "n/a",
+            "Datasheet"         : "n/a"
+        }
+    ],
+    "JP": [
+        {
+            "Value"             : "GND Bridge",
+            "Footprint"         : "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm",
+            "MPN"               : "n/a",
+            "Datasheet"         : "n/a"
+        }
+    ],
+    "PAD": [
+        {
+            "Value"             : "Conn_01x01",
+            "Footprint"         : "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm",
+            "MPN"               : "n/a",
+            "Datasheet"         : "n/a"
+        }
+    ],
+    "J": [
+        {
+            "Value"             : "USB_B_Micro",
+            "Footprint"         : "Connector_USB:USB_Micro-B_Molex-105017-0001",
+            "MPN"               : "105017-0001",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/276/1050170001_IO_CONNECTORS-230168.pdf"
         }
     ]
 }
