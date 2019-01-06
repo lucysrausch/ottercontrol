@@ -1,6 +1,8 @@
 # OtterControl
 Hardware files for OtterControl BLDC motor controller.
 
+![3D render of the board](https://raw.githubusercontent.com/cyber-murmel/ottercontrol/master/images/kicad_render.png)
+
 ## What is OtterControl?
 OtterControl is a open source, open hardware DC / BLDC motor controller.
 The basic idea was to make the well-known VESC (http://vedder.se/2015/01/vesc-open-source-esc/) even cheaper - making hoverboard-powered armchairs or crazycarts affordable.
@@ -53,5 +55,12 @@ However, for applications with more current, 1mOhm increases the current scale t
 ## Software
 
 OtterControl is based on the stmbl codebase (https://github.com/rene-dev/stmbl).
-A ported version can be found in my fork (ottercontrol branch).
+A ported version can be found in my fork [ottercontrol branch](https://github.com/NiklasFauth/stmbl/tree/ottercontrol-sessel).
 Essentially, the code on the f303 is the same as in stmbl, but without the f4 this mcu now also handles encoder input, position regulation, user settings etc.
+
+## Documentation
+
+### Schematic
+
+Download the PDF by clicking the image
+[![](https://raw.githubusercontent.com/cyber-murmel/ottercontrol/master/images/schematic.png)](https://github.com/cyber-murmel/ottercontrol/raw/master/ottercontrol.pdf)
