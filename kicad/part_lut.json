@@ -1,0 +1,227 @@
+{
+    "U": [
+        {
+            "Value"             : "STM32F303CBT6",
+            "Footprint"         : "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+            "MPN"               : "STM32F303CBT6",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/389/stm32f303cb-956188.pdf"
+        },
+        {
+            "Value"             : "ACT4088",
+            "Footprint"         : "Package_TO_SOT_SMD:TSOT-23-6",
+            "MPN"               : "ACT4088US-T",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/631/ACT4088_Datasheet-1291541.pdf"
+        },
+        {
+            "Value"             : "MIC5504-3.3YM5",
+            "Footprint"         : "Package_TO_SOT_SMD:SOT-23-5",
+            "MPN"               : "MIC5504-3.3YM5-TR",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/268/MIC550X-1082389.pdf"
+        },
+        {
+            "Value"             : "MAX3051",
+            "Footprint"         : "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+            "MPN"               : "MAX3051ESA+",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/256/MAX3051-1280983.pdf"
+        }
+    ],
+    "IC": [
+        {
+            "Value"             : "MAX485",
+            "Footprint"         : "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+            "MPN"               : "MAX485CSA+",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/256/MAX490-1389177.pdf"
+        },
+        {
+            "Value"             : "MAX485",
+            "Footprint"         : "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+            "MPN"               : "MAX485CSA+",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/256/MAX490-1389177.pdf"
+        },
+        {
+            "Value"             : "USBLC6-2SC6",
+            "Footprint"         : "Package_TO_SOT_SMD:SOT-23-6",
+            "MPN"               : "USBLC6-2SC6",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/389/usblc6-2-957370.pdf"
+        },
+        {
+            "Value"             : "USBLC6-4",
+            "Footprint"         : "Package_TO_SOT_SMD:SOT-23-6",
+            "MPN"               : "USBLC6-4SC6",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/389/usblc6-4-957459.pdf"
+        }
+    ],
+    "C": [
+        {
+            "Value"             : "18p",
+            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
+            "Tolerance"         : "1%",
+            "Dielectric"        : "C0G (NP0)",
+            "MPN"               : "GRM0335C1E180FA01D",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf"
+        },
+        {
+            "Value"             : "100n",
+            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
+            "Voltage Rating DC" : "25",
+            "MPN"               : "GRM033C81E104KE14E",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf"
+        },
+        {
+            "Value"             : "100n",
+            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
+            "Voltage Rating DC" : "50",
+            "MPN"               : "CC0603MRY5V9BB104",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/UPY-GPHC_Y5V_6.3V-to-50V_8-1280790.pdf"
+        },
+        {
+            "Value"             : "10u",
+            "Footprint"         : "Capacitor_SMD:C_1206_3216Metric",
+            "Voltage Rating DC" : "25",
+            "MPN"               : "TMK316BJ106KL-T",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf"
+        },
+        {
+            "Value"             : "10u",
+            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
+            "Voltage Rating DC" : "6.3",
+            "MPN"               : "JMK107ABJ106MA-T",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf"
+        },
+        {
+            "Value"             : "47u",
+            "Footprint"         : "Capacitor_SMD:C_2220_5650Metric",
+            "Voltage Rating DC" : "100",
+            "MPN"               : "CGA9N3X7R1E476M230KB",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/400/lcc_automotive_general_en-843974.pdf"
+        },
+        {
+            "Value"             : "22u",
+            "Footprint"         : "Capacitor_SMD:C_2220_5650Metric",
+            "Voltage Rating DC" : "100",
+            "MPN"               : "C5750X7R1E226M250KA",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/400/lcc_commercial_general_en-560200.pdf"
+        },
+        {
+            "Value"             : "100u",
+            "Footprint"         : "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm",
+            "Voltage Rating DC" : "100",
+            "MPN"               : "107CKS100MLQ",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/88/CKR_CKS_series-553026.pdf"
+        },
+        {
+            "Value"             : "1u",
+            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
+            "Voltage Rating DC" : "10",
+            "MPN"               : "885012106022",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/445/885012106022-553988.pdf"
+        },
+        {
+            "Value"             : "1n",
+            "Footprint"         : "Capacitor_SMD:C_0603_1608Metric",
+            "Voltage Rating DC" : "50",
+            "MPN"               : "885012206083",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/445/885012206083-554593.pdf"
+        }
+    ],
+    "R": [
+        {
+            "Value"             : "10k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-0710KL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "470",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-07470RL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "5.1k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-075K1L",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "56k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-0756KL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "22",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-0722RL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "2k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-072KL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "20k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-0720KL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "1.5k",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603FR-071K5L",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        },
+        {
+            "Value"             : "0",
+            "Footprint"         : "Resistor_SMD:R_0603_1608Metric",
+            "MPN"               : "RC0603JR-070RL",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf"
+        }
+    ],
+    "D": [
+        {
+            "Value"             : "B230",
+            "Footprint"         : "Diode_SMD:D_SMA",
+            "MPN"               : "B230AE-13",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/115/B220AEBE-B245AEBE-1115122.pdf"
+        },
+        {
+            "Value"             : "1N4148",
+            "Footprint"         : "Diode_SMD:D_SOD-323F",
+            "MPN"               : "1N4148WS",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/308/1N4148WS-1307249.pdf"
+        }
+    ],
+    "L": [
+        {
+            "Value"             : "6.8u",
+            "Footprint"         : "Inductor_SMD:L_Coilcraft_LPS6235",
+            "MPN"               : "LPS6235-682MRC",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/597/lps6235-270704.pdf"
+        },
+        {
+            "Value"             : "100u",
+            "Footprint"         : "Inductor_SMD:L_Coilcraft_LPS6235",
+            "MPN"               : "LPS6235-104MRC",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/597/lps6235-270704.pdf"
+        }
+    ],
+    "LED": [
+        {
+            "Value"             : "CLMVB-FKA",
+            "Footprint"         : "LED_SMD:LED_Cree-PLCC4_2x2mm_CW",
+            "MPN"               : "ASMB-MTB0-0A3A2",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/678/V02-4186EN_DS_ASMB-MTB0_2014-09-10-909697.pdf"
+        }
+    ],
+    "X": [
+        {
+            "Value"             : "Conn_01x08",
+            "Footprint"         : "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal",
+            "MPN"               : "53261-0871",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/276/0532610871_PCB_HEADERS-171054.pdf"
+        }
+    ]
+}
