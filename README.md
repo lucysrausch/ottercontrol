@@ -2,7 +2,6 @@
 Hardware files for OtterControl BLDC motor controller.
 
 ![3D render of the board](../assets/tilted.png?raw=true)
-[![Schematic](../assets/ottercontrol_sch.png?raw=true)](../assets/ottercontrol.pdf?raw=true)
 
 ## What is OtterControl?
 OtterControl is a open source, open hardware DC / BLDC motor controller.
@@ -64,4 +63,5 @@ Essentially, the code on the f303 is the same as in stmbl, but without the f4 th
 ### Schematic
 
 Download the PDF by clicking the image
-[![](https://raw.githubusercontent.com/cyber-murmel/ottercontrol/master/images/schematic.png)](https://github.com/cyber-murmel/ottercontrol/raw/master/ottercontrol.pdf)
+[![Schematic](../assets/ottercontrol_sch.png?raw=true)](../assets/ottercontrol.pdf?raw=true)
+
