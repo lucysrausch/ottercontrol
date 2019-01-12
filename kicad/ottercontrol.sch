@@ -5,8 +5,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title ""
-Date ""
+Title "ottercontrol"
+Date "2019-01-07"
 Rev ""
 Comp ""
 Comment1 ""
@@ -56,6 +56,7 @@ F 1 "STM32F303CBT6" H 3450 4050 50  0000 L CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3750 4100 50  0001 R CNN
 F 3 "https://www.mouser.de/datasheet/2/389/stm32f303cb-956188.pdf" H 4350 5500 50  0001 C CNN
 F 4 "STM32F303CBT6" H 0   0   50  0001 C CNN "MPN"
+F 5 "https://www.aliexpress.com/item//32745913400.html" H 4350 5500 50  0001 C CNN "Aliexpress"
 	1    4350 5500
 	1    0    0    -1  
 $EndComp
@@ -68,6 +69,7 @@ F 1 "16MHz" V 2645 4410 50  0000 R CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2600 4650 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/137/A-238_en-932914.pdf" H 2600 4650 50  0001 C CNN
 F 4 "FA-238 16.0000MB-K3" H 0   0   50  0001 C CNN "MPN"
+F 5 "https://www.aliexpress.com/item//32851252873.html" V 2600 4650 50  0001 C CNN "Aliexpress"
 	1    2600 4650
 	0    1    1    0   
 $EndComp
@@ -152,6 +154,7 @@ F 1 "MAX3051" H 8900 3200 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9300 3550 50  0001 C CIN
 F 3 "https://www.mouser.de/datasheet/2/256/MAX3051-1280983.pdf" H 9300 3550 50  0001 C CNN
 F 4 "MAX3051ESA+" H 50  2300 50  0001 C CNN "MPN"
+F 5 "https://www.aliexpress.com/item//32915140112.html" H 9300 3550 50  0001 C CNN "Aliexpress"
 	1    9300 3550
 	1    0    0    -1  
 $EndComp
@@ -198,6 +201,7 @@ F 1 "MAX485" H 8950 4450 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9300 4300 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/256/MAX490-1389177.pdf" H 9300 5050 50  0001 C CNN
 F 4 "MAX485CSA+" H 50  2300 50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32876836472.html" H 9300 5000 50  0001 C CNN "Aliexpress"
 	1    9300 5000
 	1    0    0    -1  
 $EndComp
@@ -244,6 +248,7 @@ F 1 "Conn_01x08" H 10680 4151 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 10600 4250 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/276/0532610871_PCB_HEADERS-171054.pdf" H 10600 4250 50  0001 C CNN
 F 4 "53261-0871" H 50  2300 50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32799039952.html" H 10600 4250 50  0001 C CNN "Aliexpress"
 	1    10600 4250
 	1    0    0    1   
 $EndComp
@@ -278,6 +283,7 @@ F 1 "USB_B_Micro" H 10171 1950 50  0000 R CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 10550 2000 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/276/1050170001_IO_CONNECTORS-230168.pdf" H 10550 2000 50  0001 C CNN
 F 4 "105017-0001" H 50  -3150 50  0001 C CNN "MPN"
+F 5 "https://www.aliexpress.com/item//32857135081.html" H 10400 2050 50  0001 C CNN "Aliexpress"
 	1    10400 2050
 	-1   0    0    -1  
 $EndComp
@@ -323,18 +329,6 @@ F 1 "GND" H 8805 2327 50  0000 C CNN
 F 2 "" H 8800 2500 50  0001 C CNN
 F 3 "" H 8800 2500 50  0001 C CNN
 	1    8800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:USBLC6-2SC6 IC3
-U 1 1 5C2EDA2E
-P 8800 1950
-F 0 "IC3" H 8500 2300 50  0000 L CNN
-F 1 "USBLC6-2SC6" H 8150 1600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8050 2350 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/389/usblc6-2-957370.pdf" H 9000 2300 50  0001 C CNN
-F 4 "USBLC6-2SC6" H 50  -3150 50  0001 C CNN "MPN"
-	1    8800 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -394,6 +388,7 @@ F 1 "Si2367DS" H 9456 1045 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9450 1100 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/427/si2367ds-278436.pdf" H 9250 1000 50  0001 C CNN
 F 4 "SI2367DS-T1-GE3" H 50  -3150 50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32964492474.html" H 9250 1000 50  0001 C CNN "Aliexpress"
 	1    9250 1000
 	1    0    0    1   
 $EndComp
@@ -689,18 +684,6 @@ F 3 "" H 850 5500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED:ASMB-MTB0-0A3A2 LED1
-U 1 1 5C47CE93
-P 1100 5500
-F 0 "LED1" H 1100 6017 50  0000 C CNN
-F 1 "CLMVB-FKA" H 1100 5926 50  0000 C CNN
-F 2 "LED_SMD:LED_Cree-PLCC4_2x2mm_CW" H 1100 6000 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/678/V02-4186EN_DS_ASMB-MTB0_2014-09-10-909697.pdf" H 1100 5050 50  0001 C CNN
-F 4 "ASMB-MTB0-0A3A2" H 0   0   50  0001 C CNN "MPN"
-	1    1100 5500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Regulator_Switching:APE1707H-12-HF U6
 U 1 1 5C58F2E9
 P 4050 1000
@@ -708,7 +691,8 @@ F 0 "U6" H 4050 1342 50  0000 C CNN
 F 1 "XL7015" H 4050 1251 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-5_TabPin3" H 4075 750 50  0001 L CIN
 F 3 "http://pdf.datasheet.live/datasheets-1/advanced_power_electronics/APE1707H-12-HF.pdf" H 4050 1000 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "MPN"
+F 4 "XL7015" H 4150 1442 50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32955190374.html" H 4050 1000 50  0001 C CNN "Aliexpress"
 	1    4050 1000
 	1    0    0    -1  
 $EndComp
@@ -721,6 +705,7 @@ F 1 "B230" V 4545 1221 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 4500 1125 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/115/B220AEBE-B245AEBE-1115122.pdf" H 4500 1300 50  0001 C CNN
 F 4 "B230AE-13" H 0   0   50  0001 C CNN "MPN"
+F 5 "https://www.aliexpress.com/item//32855500127.html" V 4500 1300 50  0001 C CNN "Aliexpress"
 	1    4500 1300
 	0    1    1    0   
 $EndComp
@@ -756,6 +741,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 4938 1150 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf" H 4900 1300 50  0001 C CNN
 F 4 "25" H 4900 1300 50  0001 C CNN "Voltage Rating DC"
 F 5 "TMK316BJ106KL-T" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.aliexpress.com/item//32880416347.html" H 4900 1300 50  0001 C CNN "Aliexpress"
 	1    4900 1300
 	1    0    0    -1  
 $EndComp
@@ -769,6 +755,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 5338 1150 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf" H 5300 1300 50  0001 C CNN
 F 4 "25" H 5300 1300 50  0001 C CNN "Voltage Rating DC"
 F 5 "TMK316BJ106KL-T" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.aliexpress.com/item//32880416347.html" H 5300 1300 50  0001 C CNN "Aliexpress"
 	1    5300 1300
 	1    0    0    -1  
 $EndComp
@@ -919,6 +906,7 @@ F 1 "ACT4088" H 1350 2876 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 1375 2350 50  0001 L CIN
 F 3 "https://www.mouser.de/datasheet/2/631/ACT4088_Datasheet-1291541.pdf" H 1250 2700 50  0001 C CNN
 F 4 "ACT4088US-T" H 0   0   50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32251221271.html" H 1350 2600 50  0001 C CNN "Aliexpress"
 	1    1350 2600
 	1    0    0    -1  
 $EndComp
@@ -943,6 +931,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 838 2550 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf" H 800 2700 50  0001 C CNN
 F 4 "25" H 800 2700 50  0001 C CNN "Voltage Rating DC"
 F 5 "TMK316BJ106KL-T" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.aliexpress.com/item//32880416347.html" H 800 2700 50  0001 C CNN "Aliexpress"
 	1    800  2700
 	1    0    0    -1  
 $EndComp
@@ -1083,6 +1072,7 @@ F 1 "6.8u" V 2534 2600 50  0000 C CNN
 F 2 "Inductor_SMD:L_Coilcraft_LPS6235" H 2400 2600 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/597/lps6235-270704.pdf" H 2400 2600 50  0001 C CNN
 F 4 "LPS6235-682MRC" H 0   0   50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32886534770.html" V 2400 2600 50  0001 C CNN "Aliexpress"
 	1    2400 2600
 	0    -1   -1   0   
 $EndComp
@@ -1095,6 +1085,7 @@ F 1 "100u" V 4834 1100 50  0000 C CNN
 F 2 "Inductor_SMD:L_Coilcraft_LPS6235" H 4700 1100 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/597/lps6235-270704.pdf" H 4700 1100 50  0001 C CNN
 F 4 "LPS6235-104MRC" H 0   0   50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32886534770.html" V 4700 1100 50  0001 C CNN "Aliexpress"
 	1    4700 1100
 	0    -1   -1   0   
 $EndComp
@@ -1107,6 +1098,7 @@ F 1 "MIC5504-3.3YM5" H 4450 2876 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4450 2200 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/268/MIC550X-1082389.pdf" H 4200 2850 50  0001 C CNN
 F 4 "MIC5504-3.3YM5-TR" H -250 0   50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32271737578.html" H 4450 2600 50  0001 C CNN "Aliexpress"
 	1    4450 2600
 	1    0    0    -1  
 $EndComp
@@ -1201,6 +1193,7 @@ F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 688 1250 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/88/CKR_CKS_series-553026.pdf" H 650 1400 50  0001 C CNN
 F 4 "100" H 868 1546 50  0001 C CNN "Voltage Rating DC"
 F 5 "107CKS100MLQ" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.aliexpress.com/item//32642894401.html" H 650 1400 50  0001 C CNN "Aliexpress"
 	1    650  1400
 	1    0    0    -1  
 $EndComp
@@ -1214,6 +1207,7 @@ F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 1088 1250 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/88/CKR_CKS_series-553026.pdf" H 1050 1400 50  0001 C CNN
 F 4 "100" H 1268 1546 50  0001 C CNN "Voltage Rating DC"
 F 5 "107CKS100MLQ" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.aliexpress.com/item//32642894401.html" H 1050 1400 50  0001 C CNN "Aliexpress"
 	1    1050 1400
 	1    0    0    -1  
 $EndComp
@@ -1227,6 +1221,7 @@ F 2 "Capacitor_SMD:C_2220_5650Metric" H 1488 1250 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/400/lcc_automotive_general_en-843974.pdf" H 1450 1400 50  0001 C CNN
 F 4 "100" H 1450 1400 50  0001 C CNN "Voltage Rating DC"
 F 5 "CGA9N3X7R1E476M230KB" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.aliexpress.com/item//32826554052.html" H 1450 1400 50  0001 C CNN "Aliexpress"
 	1    1450 1400
 	1    0    0    -1  
 $EndComp
@@ -1240,6 +1235,7 @@ F 2 "Capacitor_SMD:C_2220_5650Metric" H 1888 1250 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/400/lcc_automotive_general_en-843974.pdf" H 1850 1400 50  0001 C CNN
 F 4 "100" H 1850 1400 50  0001 C CNN "Voltage Rating DC"
 F 5 "CGA9N3X7R1E476M230KB" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.aliexpress.com/item//32826554052.html" H 1850 1400 50  0001 C CNN "Aliexpress"
 	1    1850 1400
 	1    0    0    -1  
 $EndComp
@@ -1253,6 +1249,7 @@ F 2 "Capacitor_SMD:C_2220_5650Metric" H 2288 1250 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/400/lcc_automotive_general_en-843974.pdf" H 2250 1400 50  0001 C CNN
 F 4 "100" H 2465 1546 50  0001 C CNN "Voltage Rating DC"
 F 5 "CGA9N3X7R1E476M230KB" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.aliexpress.com/item//32826554052.html" H 2250 1400 50  0001 C CNN "Aliexpress"
 	1    2250 1400
 	1    0    0    -1  
 $EndComp
@@ -1426,6 +1423,7 @@ F 1 "Conn_01x05" H 6950 1400 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal" H 7150 1100 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/276/0532610571_PCB_HEADERS-170968.pdf" H 7150 1100 50  0001 C CNN
 F 4 "53261-0571" H -150 -2550 50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32798651089.html" H 7150 1100 50  0001 C CNN "Aliexpress"
 	1    7150 1100
 	1    0    0    1   
 $EndComp
@@ -1496,6 +1494,8 @@ F 1 "USBLC6-4" H 6050 1950 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5800 2700 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/389/usblc6-4-957459.pdf" H 6750 2650 50  0001 C CNN
 F 4 "USBLC6-4SC6" H -50 -2750 50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32916288820.html" H 6550 2300 50  0001 C CNN "Aliexpress"
+F 6 "https://www.aliexpress.com/item//32917098748.html" H 6550 2300 50  0001 C CNN "Aliexpress"
 	1    6550 2300
 	1    0    0    -1  
 $EndComp
@@ -2697,4 +2697,34 @@ Wire Notes Line
 	5900 6450 5900 5150
 Wire Notes Line
 	5900 5150 7800 5150
+Text Notes 5900 350  0    50   ~ 0
+Cable Connector: 51021-0500\nhttps://de.aliexpress.com/item//32819174211.html
+Text Notes 11350 4300 0    50   ~ 0
+Cable Connector: 51021-0800\nhttps://de.aliexpress.com/item//32310864974.html
+$Comp
+L Power_Protection:USBLC6-4 IC3
+U 1 1 5C3D8F60
+P 8800 1950
+F 0 "IC3" H 8500 2300 50  0000 L CNN
+F 1 "USBLC6-4" H 8300 1600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8050 2350 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/389/usblc6-4-957459.pdf" H 9000 2300 50  0001 C CNN
+F 4 "USBLC6-4SC6" H 2200 -3100 50  0001 C CNN "MPN"
+F 5 "https://de.aliexpress.com/item//32916288820.html" H 8800 1950 50  0001 C CNN "Aliexpress"
+F 6 "https://www.aliexpress.com/item//32917098748.html" H 8800 1950 50  0001 C CNN "Aliexpress"
+	1    8800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG LED1
+U 1 1 5C40BD05
+P 1100 5500
+F 0 "LED1" H 1100 5997 50  0000 C CNN
+F 1 "LED_RABG" H 1100 5906 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW" H 1100 5450 50  0001 C CNN
+F 3 "~" H 1100 5450 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item//32493858500.html" H 1100 5500 50  0001 C CNN "Aliexpress"
+	1    1100 5500
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

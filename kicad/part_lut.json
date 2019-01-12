@@ -139,8 +139,8 @@
             "Value"             : "22u",
             "Footprint"         : "Capacitor_SMD:C_2220_5650Metric",
             "Voltage Rating DC" : "100",
-            "MPN"               : "C5750X7R1E226M250KA",
-            "Datasheet"         : "https://www.mouser.de/datasheet/2/400/lcc_commercial_general_en-560200.pdf"
+            "MPN"               : "C5750X5R1E226M250KA",
+            "Datasheet"         : "https://www.mouser.de/datasheet/2/400/lcc_commercial_highvoltage_en-844071.pdf"
         },
         {
             "Value"             : "47u",
@@ -241,7 +241,7 @@
         {
             "Value"             : "1N4148",
             "Footprint"         : "Diode_SMD:D_SOD-323F",
-            "MPN"               : "1N4148WS",
+            "MPN"               : "1N4148WSF-7",
             "Datasheet"         : "https://www.mouser.de/datasheet/2/308/1N4148WS-1307249.pdf"
         }
     ],
