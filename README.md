@@ -1,7 +1,8 @@
 # OtterControl
 Hardware files for OtterControl BLDC motor controller.
 
-![3D render of the board](https://raw.githubusercontent.com/cyber-murmel/ottercontrol/master/images/kicad_render.png)
+![3D render of the board](../assets/tilted.png?raw=true)
+[![Schematic](../assets/ottercontrol_sch.png?raw=true)](../assets/ottercontrol.pdf?raw=true)
 
 ## What is OtterControl?
 OtterControl is a open source, open hardware DC / BLDC motor controller.
