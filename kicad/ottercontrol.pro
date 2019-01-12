@@ -1,4 +1,4 @@
-update=Mon 07 Jan 2019 12:26:19 AM CET
+update=Sat 12 Jan 2019 11:31:54 PM CET
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../
+PlotDirectoryName=../../ottercontrol-assets/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

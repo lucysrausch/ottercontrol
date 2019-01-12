@@ -2699,7 +2699,7 @@ Wire Notes Line
 	5900 5150 7800 5150
 Text Notes 5900 350  0    50   ~ 0
 Cable Connector: 51021-0500\nhttps://de.aliexpress.com/item//32819174211.html
-Text Notes 11350 4300 0    50   ~ 0
+Text Notes 11500 4800 1    50   ~ 0
 Cable Connector: 51021-0800\nhttps://de.aliexpress.com/item//32310864974.html
 $Comp
 L Power_Protection:USBLC6-4 IC3
