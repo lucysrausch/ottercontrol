@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ottercontrol-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -457,7 +457,7 @@ F 0 "R44" H 6398 6046 50  0000 L CNN
 F 1 "Thermistor_NTC" H 6398 5955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6300 6050 50  0001 C CNN
 F 3 "~" H 6300 6050 50  0001 C CNN
-F 4 "" H 6300 7950 50  0001 C CNN "MPN"
+F 4 "103AT" H 6300 7950 50  0001 C CNN "MPN"
 	1    6300 6000
 	1    0    0    -1  
 $EndComp
