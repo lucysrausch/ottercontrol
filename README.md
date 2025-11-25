@@ -1,6 +1,8 @@
 # OtterControl
 Hardware files for OtterControl BLDC motor controller.
 
+![](/media/top.jpg)   ![](/media/bottom.jpg)
+
 ## What is OtterControl?
 OtterControl is a open source, open hardware DC / BLDC motor controller.
 The basic idea was to make the well-known VESC (http://vedder.se/2015/01/vesc-open-source-esc/) even cheaper - making hoverboard-powered armchairs or crazycarts affordable.
@@ -32,6 +34,8 @@ The final BOM for 50pcs of OtterControl turns out to be ~19€ per piece.
 * 3 GPIOs, sharing one Timer (eg. as hall sensor input, quadrature encoder)
 * 5V max. 200mA out (eg. for hall sensors)
 * Otter
+
+![](/media/pcba.jpg)
 
 ## Versions
 
